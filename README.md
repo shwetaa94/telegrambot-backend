@@ -1,73 +1,52 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+The link for telegram bot [https://t.me/shweta888bot]( https://t.me/shweta888bot)
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+This is a frontend for weatherapp frontend: [https://github.com/shwetaa94/telegrambot-frontend](https://github.com/shwetaa94/telegrambot-frontend) 
+bootstrapped with backened : [https://github.com/shwetaa94/telegrambot-backend](https://github.com/shwetaa94/telegrambot-backend).
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# Video
 
-## Description
+https://github.com/shwetaa94/telegrambot-frontend/assets/110349627/c6be1be2-a7f8-4bf3-ad67-d14beb581a31
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+This Telegram bot provides real-time weather updates for different regions. Users can subscribe to the service by clicking on the route `/subscribe` and then accessing weather information via `/info` command.
 
-```bash
-$ npm install
+The bot is built using NestJS and integrates with Google Sign-In for user authentication. Once signed in, users can access their dashboard to view the number of registered users.
+
+## Getting Started
+
+To get started with the Weather Update Telegram Bot, follow these steps:
+
+1. **Sign In with Google**: Visit the website and sign in with your Google account.
+2. **Dashboard**: Once signed in, you'll be directed to your dashboard where you can see the number of registered users.
+3. **Subscription**: Click on the `/subscribe` route to subscribe to weather updates.
+4. **Weather Information**: Use the `/info` command in Telegram to receive weather updates for your region.
+
+## Usage
+
+### Subscription
+To subscribe to weather updates:
+```
+/subscribe = for subscription
+```
+/info  = for latest weather info
+```
+/unsubscribe = for unsubscribe
 ```
 
-## Running the app
+## Development
 
-```bash
-# development
-$ npm run start
+To contribute to the development of this bot, follow these steps:
 
-# watch mode
-$ npm run start:dev
+1. Clone the repository: `git clone <repository_url>`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run start:dev`
+4. Make changes as required.
+5. Submit a pull request.
 
-# production mode
-$ npm run start:prod
-```
+## Contributors
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- [Shweta](https://github.com/shwetaa94)
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
